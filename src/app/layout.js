@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-    const tabs = ["About Me", "Experience", "Projects", "Resume", "Contact Me"];
+    const tabs = ["About Me", "Page", "Projects", "Resume", "Contact Me"];
 
     return (
         <html lang="en">

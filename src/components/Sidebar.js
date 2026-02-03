@@ -7,7 +7,7 @@ export default function Sidebar() {
     const pathname = usePathname(); // get current route
 
     const tabs = [
-        { label: "About Me", href: "/about" },
+        { label: "About Me", href: "/" },
         { label: "Experience", href: "/experience" },
         { label: "Projects", href: "/projects" },
         { label: "Resume", href: "/resume" },
